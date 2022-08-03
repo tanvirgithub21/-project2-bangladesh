@@ -1,0 +1,98 @@
+body {
+  font-family: font-family: 'DM Sans', sans-serif;;
+  margin: 0;
+  padding: 0;
+}
+.flex {
+  display: flex;
+}
+section.first-section .main-heading {
+  text-align: center;
+  font-size: 40px;
+  color: green;
+}
+section.first-section .container {
+  width: 80%;
+  margin: 0 auto;
+}
+.details-btn {
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 40px;
+  background-image: linear-gradient(45deg, green, red, green);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-size: 15px;
+}
+/* .details-btn:hover {
+  background-image: rgb(246, 221, 221);
+  border: 1px solid red;
+} */
+
+.map-img {
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+
+section.second-section {
+  text-align: center;
+}
+section.second-section h1 {
+  font-size: 40px;
+}
+/* section.second-section h2 {
+  text-align: center;
+} */
+section.second-section .dhaka {
+  width: 300px;
+  box-shadow: 4px 4px 20px gray;
+}
+section.second-section .dhaka img {
+  width: 100%;
+  height: 50%;
+}
+
+/* button style  */
+
+section.second-section .dhaka .card-btn {
+  background-color: #092044;
+  color: white;
+  border: 2px solid #092044;
+  border-radius: 5px;
+  padding: 10px 30px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-wrap {
+  display: flex;
+  justify-content: center;
+}
+section.second-section .dhaka .card-btn:hover {
+  background-color: white;
+  color: #092044;
+}
+section.second-section .dhaka .card-btn:hover .btn-link {
+  color: #092044;
+}
+section.second-section .dhaka .card-btn a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+section.second-section .container {
+  display: flex;
+  justify-content: space-around;
+  margin: 5rem 0;
+}
+.group {
+  padding: 1.5rem;
+}
+
+footer{
+  text-align: center;
+  font-size: 20px;
+  padding: 2rem 0;  
+}
